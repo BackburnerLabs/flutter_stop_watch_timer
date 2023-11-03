@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stop_watch_timer/stop_watch_timer.dart';
-import 'package:stop_watch_timer_example/rounded_button.dart';
+import 'rounded_button.dart';
 
 class CountUpTimerPage extends StatefulWidget {
   static Future<void> navigatorPush(BuildContext context) async {

@@ -150,7 +150,6 @@ class StopWatchTimer {
       }
       result += '$msStr';
     }
-    
     return result;
   }
 
@@ -171,14 +170,12 @@ class StopWatchTimer {
   /// Get display second time.
   static String getDisplayTimeSecond(int mSec) {
     final s = (mSec / 1000).floor();
-    
     return s.toString().padLeft(3, '0');
   }
 
   /// Get display millisecond time.
   static String getDisplayTimeMillisecond(int mSec) {
     final ms = (mSec % 1000).floor();
-    
     return ms.toString().padLeft(3, '0');
   }
 
